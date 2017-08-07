@@ -12,6 +12,7 @@
 * Học cách để thiết kế một hệ thống lớn có khả năng mở rộng
 * Làm đầu ra cho đợt thực tập hè 2017
 
+## Mục lục
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
