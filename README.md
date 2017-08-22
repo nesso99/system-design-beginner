@@ -1132,16 +1132,35 @@ Bảo mật là một chủ đề rất rộng. Nên ở đây chỉ nêu một 
 * Sử dụng các truy vấn có thể truyền tham số để tránh SQL Injection (Các thư viện đều hỗ trợ, tốt hơn là nên dùng ORM).
 * Sử dụng định lý [least privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege). Nên dùng các quy luật chặt chẽ để phân quyền trên các tiến trình và tài nguyên.
 
-### Nguồn và tài liệu đọc thêm
+### Nguồn và tài liệu đọc thêm : Security
 
 * [Security guide for developers](https://github.com/FallibleInc/security-guide-for-developers)
 * [OWASP top ten](https://www.owasp.org/index.php/OWASP_Top_Ten_Cheat_Sheet)
 
+<!-- Bổ sung về authentication bằng token -->
 ### Sử dụng JWT cho việc định danh (authentication) 
-* Lợi thế của JWT so với dùng session thông thường
-* Làm cách nào để vô hiệu hóa một jwt
+
+<p align="center">
+  <img src="https://cdn.auth0.com/blog/cookies-vs-tokens/cookie-token-auth.png">
+  <br/>
+  <i><a href=https://auth0.com/blog/cookies-vs-tokens-definitive-guide/>Source: auth0</a></i>
+</p>
+
+* Lợi thế của JWT hay token-based authentication nói chung
+    * **phi trạng thái (stateless), khả năng mở rộng (scalable) và tách biệt (decoupled):** có lẽ lợi thế lớn nhất của jwt so với dùng session là phi trạng thái. Server không phải lưu lại bản ghi của token mà chỉ cần xác nhận token đấy có hợp lệ hay không, bản thân token nó đã mang các thông tin cần thiết rồi.
+    * **Cross Domain và CORS:** Session sẽ gặp khó khăn khi phải quản lý ở nhiều domain khác nhau, jwt có thể xử lý vấn đề này
+    * **Store Data in the JWT:** jwt có thể lưu lại bất kỳ dữ liệu nào, nếu nó là một JSON hợp lệ. Bạn có thể lưu lại các thông tin cần thiết cho hệ thống của bạn.
+    * **Hiệu năng:** Từ những lợi thế trên, ta sẽ có lợi thế về hiệu năng. Khi dùng session thông thường, server phải mở một hoặc nhiều kết nối để tìm kiếm trong CSDL trong khi dùng token thì bạn chỉ cần mở kết nối khi cần lấy dữ liệu mà thôi, tất cả thông tin về authentication cũng như authorization đều được lưu trong jwt.
+    * **Mobile Ready:** Không phải thiết bị nào cũng hỗ trợ tốt cho cookie, jwt là một sự thay thế không tồi.
+
+* Làm cách nào để vô hiệu hóa một jwt (cho việc đăng xuất cũng như hủy đăng nhập từ các thiết bị khác)
     * Xây dựng một danh sách đen (blacklist) các jwt bị vô hiệu hóa.
     * Set thời gian sống cho mỗi jwt thật ngắn, sau đó refresh lại token vào mốc thời gian cần thiết.
+
+#### Nguồn và tài liệu đọc thêm: JWT
+* [Cookies vs Tokens: The Definitive Guide](https://auth0.com/blog/cookies-vs-tokens-definitive-guide/)
+* [Stop using JWT for sessions](http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/)
+
 ### Các kiểu tấn công web phổ biến
 * [OWASP Top Ten Cheat Sheet](https://www.owasp.org/index.php/OWASP_Top_Ten_Cheat_Sheet)
 ### Tường lửa ứng dụng web
