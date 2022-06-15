@@ -1,1 +1,0 @@
-# TODO: NEO4J detail
