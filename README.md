@@ -22,12 +22,68 @@ Thiết kế hệ thống là một chủ đề rất rộng. Có **hằng hà s
 
 Repo này là một **bộ sưu tập đã được tổ chức** các tài nguyên để giúp bạn học cách xây dựng các hệ thống có khả năng mở rộng.
 
+### Học từ cộng đồng mã nguồn mở
+
+Đây là một dự án mã nguồn mở được cập nhật liên tục.
+
+[Các đóng góp](#các-đóng-góp) luôn được hoang nghênh!
+
+### Chuẩn bị cho việc phỏng vấn thiết kế hệ thống
+
+Bên cạnh việc được phỏng vấn kỹ năng code, thiết kế hệ thống cũng là một phần **bắt buộc** trong **vòng phỏng vấn kỹ thuật** của rất nhiều công ty công nghệ.
+
+**Luyện tập các câu phỏng vấn thiết kế hệ thống phổ biến** và **so sánh** câu trả lời của bạn với các đáp án mẫu: các cuộc thảo luận, code và các sơ đồ.
+
+Các chủ đề bổ sung cho việc chuẩn bị phỏng vấn:
+
+* [Study guide](#study-guide)
+* [How to approach a system design interview question](#how-to-approach-a-system-design-interview-question)
+* [System design interview questions, **with solutions**](#system-design-interview-questions-with-solutions)
+* [Object-oriented design interview questions, **with solutions**](#object-oriented-design-interview-questions-with-solutions)
+* [Additional system design interview questions](#additional-system-design-interview-questions)
+
 ## Anki flashcards
 
 <p align="center">
   <img src="https://github.com/donnemartin/system-design-primer/blob/master/images/zdCAkB3.png">
   <br/>
 </p>
+
+The provided [Anki flashcard decks](https://apps.ankiweb.net/) use spaced repetition to help you retain key system design concepts.
+
+* [System design deck](https://github.com/donnemartin/system-design-primer/tree/master/resources/flash_cards/System%20Design.apkg)
+* [System design exercises deck](https://github.com/donnemartin/system-design-primer/tree/master/resources/flash_cards/System%20Design%20Exercises.apkg)
+* [Object oriented design exercises deck](https://github.com/donnemartin/system-design-primer/tree/master/resources/flash_cards/OO%20Design.apkg)
+
+Cực kỳ thích hợp cho các bạn cần tính di động.
+
+### Tài nguyên coding: Interactive Coding Challenges
+
+Looking for resources to help you prep for the [**Coding Interview**](https://github.com/donnemartin/interactive-coding-challenges)?
+
+<p align="center">
+  <img src="images/b4YtAEN.png">
+  <br/>
+</p>
+
+Check out the sister repo [**Interactive Coding Challenges**](https://github.com/donnemartin/interactive-coding-challenges), which contains an additional Anki deck:
+
+* [Coding deck](https://github.com/donnemartin/interactive-coding-challenges/tree/master/anki_cards/Coding.apkg)
+
+## Các đóng góp
+
+> Học tập từ cộng đồng.
+
+Hãy thoải mái submit các pull request để giúp chúng tôi:
+
+* Sửa các lỗi
+* Cải thiện các chủ đề đã viết
+* Thêm chủ đề mới
+* [Dịch thuật](https://github.com/donnemartin/system-design-primer/issues/28)
+
+Các nội dung cần điều chỉnh lại được liệt kê ở [under development](#under-development).
+
+Bạn có thể xem thêm [Hướng dẫn đóng góp](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).
 
 ## Mục lục
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
