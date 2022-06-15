@@ -25,7 +25,7 @@ Repo này là một **bộ sưu tập đã được tổ chức** các tài nguy
 ## Anki flashcards
 
 <p align="center">
-  <img src="images/zdCAkB3.png">
+  <img src="https://github.com/donnemartin/system-design-primer/blob/master/images/zdCAkB3.png">
   <br/>
 </p>
 
