@@ -1,6 +1,6 @@
-# Tìm hiểu về thiết kế hệ thống
+# Thiết kế hệ thống cho người mới
 
-## Nguồn tham khảo chính
+## Nguồn dịch thuật
 * [The System Design Primer](https://github.com/donnemartin/system-design-primer)
 
 <p align="center">
@@ -9,8 +9,25 @@
 </p>
 
 ## Động lực (Motivation)
-* Học cách để thiết kế một hệ thống lớn có khả năng mở rộng
-* Làm đầu ra cho đợt thực tập hè 2017
+
+> Học cách thiết kế các hệ thống có khả năng mở rộng cao.
+>
+> Làm tài liệu chuẩn bị cho các buổi phỏng vấn về thiết kế.
+
+### Học cách thiết kế các hệ thống có khả năng mở rộng cao
+
+Học cách thiết kế hệ thống có khả năng mở rộng sẽ giúp bạn trở thành một kỹ sư tốt hơn.
+
+Thiết kế hệ thống là một chủ đề rất rộng. Có **hằng hà sa số các tài nguyên rải rác trên web** về các nguyên lý thiết kế hệ thống.
+
+Repo này là một **bộ sưu tập đã được tổ chức** các tài nguyên để giúp bạn học cách xây dựng các hệ thống có khả năng mở rộng.
+
+## Anki flashcards
+
+<p align="center">
+  <img src="images/zdCAkB3.png">
+  <br/>
+</p>
 
 ## Mục lục
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
