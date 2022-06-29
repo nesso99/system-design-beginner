@@ -49,7 +49,7 @@ Các chủ đề bổ sung cho việc chuẩn bị phỏng vấn:
   <br/>
 </p>
 
-The provided [Anki flashcard decks](https://apps.ankiweb.net/) use spaced repetition to help you retain key system design concepts.
+Bản [Anki flashcard decks](https://apps.ankiweb.net/) này sử dụng sự lặp lại ngắt quãng để giúp bạn ghi nhớ các khái niệm thiết kế hệ thống chính.
 
 * [System design deck](https://github.com/donnemartin/system-design-primer/tree/master/resources/flash_cards/System%20Design.apkg)
 * [System design exercises deck](https://github.com/donnemartin/system-design-primer/tree/master/resources/flash_cards/System%20Design%20Exercises.apkg)
@@ -59,14 +59,14 @@ Cực kỳ thích hợp cho các bạn cần tính di động.
 
 ### Tài nguyên coding: Interactive Coding Challenges
 
-Looking for resources to help you prep for the [**Coding Interview**](https://github.com/donnemartin/interactive-coding-challenges)?
+Bạn đang tìm kiếm tài nguyên để chuẩn bị cho [**Coding Interview**](https://github.com/donnemartin/interactive-coding-challenges)?
 
 <p align="center">
-  <img src="images/b4YtAEN.png">
+  <img src="https://github.com/donnemartin/system-design-primer/blob/master/images/b4YtAEN.png">
   <br/>
 </p>
 
-Check out the sister repo [**Interactive Coding Challenges**](https://github.com/donnemartin/interactive-coding-challenges), which contains an additional Anki deck:
+Hãy thử xem qua repo cùng tác giả [**Interactive Coding Challenges**](https://github.com/donnemartin/interactive-coding-challenges), nơi có thêm một Anki deck nữa:
 
 * [Coding deck](https://github.com/donnemartin/interactive-coding-challenges/tree/master/anki_cards/Coding.apkg)
 
@@ -81,7 +81,7 @@ Hãy thoải mái submit các pull request để giúp chúng tôi:
 * Thêm chủ đề mới
 * [Dịch thuật](https://github.com/donnemartin/system-design-primer/issues/28)
 
-Các nội dung cần điều chỉnh lại được liệt kê ở [under development](#under-development).
+Các nội dung đang phát triển được liệt kê ở [under development](#under-development).
 
 Bạn có thể xem thêm [Hướng dẫn đóng góp](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).
 
